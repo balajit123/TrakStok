@@ -235,10 +235,10 @@ public class CompanyBean extends TSBaseFormBean {
         return null;
     }
     
-    private Date getDefaultToDate(){        
-        GregorianCalendar calendar = (GregorianCalendar) GregorianCalendar.getInstance();                
+    private Date getDefaultToDate(){
+        GregorianCalendar calendar = (GregorianCalendar) GregorianCalendar.getInstance();
         return calendar.getTime();
-    }    
+    }
 
     private void calculateBoundaries(LinkedHashMap<Object, Number> result, boolean secondSymbol) {
         Set<Number> valueSet = new TreeSet<>();
